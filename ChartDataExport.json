@@ -1,0 +1,48 @@
+{
+  "id": "com.rohitchouhan.cde",
+  "version": "1.0.0",
+  "name": "Chart Data Export",
+  "description": "A widget to export chart data such as dimensions, filter and values.",
+  "newInstancePrefix": "ChartDataExport",
+  "vendor": "Deloitte. | rohchouhan@deloitte.com",
+  "eula": "Rohit Chouhan",
+  "license": "MIT",
+  "icon": "https://sac-hero.ai/icon.png",
+  "imports": ["table", "input-controls","chart"],
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-rohit-sap-cde",
+      "url": "https://sac-hero.ai/cde.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    },
+    {
+      "kind": "builder",
+      "tag": "com-rohit-sap-cde-builder",
+      "url": "https://sac-hero.ai/cde_Builder.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+  },
+  "methods": {
+    "setChart": {
+      "description": "Download Chart Data as Json Format",
+       "parameters": [
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title for the file"
+        },
+        {
+          "name": "chartName",
+          "type": "Chart",
+          "description": "name of chart, ex. Chart_1"
+        }
+      ]
+    }
+  },
+  "events": {}
+}
