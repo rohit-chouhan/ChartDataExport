@@ -4,23 +4,23 @@
   "name": "Chart Data Export",
   "description": "A widget to export chart data such as dimensions, filter and values.",
   "newInstancePrefix": "ChartDataExport",
-  "vendor": "Deloitte. | rohchouhan@deloitte.com",
+  "vendor": "Deloitte | rohchouhan@deloitte.com",
   "eula": "Rohit Chouhan",
   "license": "MIT",
-  "icon": "https://sac-hero.ai/icon.png",
+  "icon": "https://cdn.jsdelivr.net/gh/rohit-chouhan/ChartDataExport@main/icon.png",
   "imports": ["table", "input-controls","chart"],
   "webcomponents": [
     {
       "kind": "main",
       "tag": "com-rohit-sap-cde",
-      "url": "https://sac-hero.ai/cde.js",
+      "url": "https://cdn.jsdelivr.net/gh/rohit-chouhan/ChartDataExport@main/cde.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "com-rohit-sap-cde-builder",
-      "url": "https://sac-hero.ai/cde_Builder.js",
+      "url": "https://cdn.jsdelivr.net/gh/rohit-chouhan/ChartDataExport@main/cde_Builder.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
